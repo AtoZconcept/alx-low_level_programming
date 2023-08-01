@@ -1,8 +1,9 @@
 #include "lists.h"
 
 /**
- * free_list2 - Frees a listint_t list
- * @head: Pointer to the list_t list to be freed
+ * free_listint2 - Frees a listint_t list
+ * description: The function sets the head to NULL
+ * @head: Pointer to the listint_t list to be freed
  */
 
 void free_listint2(listint_t **head)
