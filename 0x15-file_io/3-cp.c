@@ -75,8 +75,8 @@ int main(int argc, char *argv[])
 		{
 			dprintf(STDERR_FILENO,
 					"Error: Can't read from file %s\n", argv[2]);
-                        free(buffer);
-                        exit(99);
+			free(buffer);
+			exit(99);
 		}
 		r = read(fr, buffer, 1024);
 		t = open(argv[2], O_WRONLY | O_APPEND);
