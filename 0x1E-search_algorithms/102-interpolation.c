@@ -1,6 +1,6 @@
 #include "search_algos.h"
 /**
- * jinterpolation_search - function that searches for a value in a sorted array
+ * interpolation_search - function that searches for a value in a sorted array
  * of integers using the Interpolation search algorithm
  * @array: pointer to the first element of the array to search in
  * @size: number of elements in array
@@ -19,7 +19,7 @@ int interpolation_search(int *array, size_t size, int value)
 
 	while (left <= right && value >= array[left] && value <= array[right])
 	{
-		pos = left + (((double)(right - left) / (array[right] - array[left]))\
+		pos = left + (((double)(right - left) / (array[right] - array[left]))
 			* (value - array[left]));
 		printf("Value checked array[%d] = [%d]\n", pos, array[pos]);
 
