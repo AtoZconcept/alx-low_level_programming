@@ -18,7 +18,7 @@ int advanced_binary(int *array, size_t size, int value)
 }
 
 /**
- * binary_recursion - Recursive function to find the first index where 'value' is located.
+ * binary_recursion - Recursive function to find the first index.
  * @low: Lower bound of the search range
  * @high: Upper bound of the search range
  * @array: Pointer to the array of integers.
