@@ -2,6 +2,7 @@
 /**
  * linear_skip - function that searches for a value in a sorted array
  * of integers using the linear_skip algorithm
+ * @list: pointer to the head of the skip list to search in
  * @value: value to search for
  *
  * Return: The first index where value is located
